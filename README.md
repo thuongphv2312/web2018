@@ -13,7 +13,7 @@ Yêu cầu:
 - images
 ## Thực hiện bởi [Phạm Văn Thượng](https://github.com/thuongphv2312)
 ## Giao diện
-[Trang document]( https://thuongphv2312.github.io/web2018/index.html)
+[Trang document]( https://thuongphv2312.github.io/Web2018/index.html)
 -[ảnh](https://github.com/thuongphv2312/web2018/blob/master/img.png)
 ## Kiến thức nắm được
 

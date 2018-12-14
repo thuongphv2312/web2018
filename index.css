@@ -100,7 +100,7 @@ content div.mag{
 	display: flex;
 }
 content div.mag div.content-left{
-	flex:2;
+	flex:3;
 	margin-right: 45px;
 	width: 60%;
 }
@@ -368,7 +368,7 @@ content div.mag div.content-right{
 .text{
 	font-size: 10px;
 	line-height: 30px;
-	width: 38%;
+	width: 50%;
 	background-color: black;
 }
 .text a{
@@ -443,7 +443,7 @@ footer .footer-top .row-3 div ul li{
 	margin-bottom: 4px;
 }
 footer .footer-top .row-3 div ul.number li{
-	text-align: center;
+	text-align: right;
 }
 footer .footer-top .row-3 p{
 	margin: 0;
@@ -468,13 +468,13 @@ footer .footer-center .left img{
 	margin: 64px 0;
 }
 footer .footer-center .center{
-	flex:2;
+	flex:1;
 }
 footer .footer-center .right{
 	padding:0 20px;
 	display: flex;
 	flex-direction: column;
-	flex:2;
+	flex:1;
 }
 footer .footer-center .right img{
 	margin: 10px auto;

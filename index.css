@@ -2,8 +2,46 @@ body{
 	margin:0 auto;
 }
 @font-face {
-  font-family: myFirstFont;
-  src: url(sansation_light.woff);
+  font-family:FONT-1;
+  src: url(./fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family:FONT-2;
+  src: url(./fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family:FONT-3;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family:FONT-3;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family:FONT-4;
+  src: url(./fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family:FONT-5;
+  src: url(./fonts/OpenSans-Italic.ttf);
+}
+.font-1{
+	font-family:FONT-1;
+}
+.font-2{
+	font-family:FONT-2;
+	font-size: 10px;
+	color: gray;
+}
+.font-3{
+	font-family: FONT-3;
+	font-size: 13px;
+}
+.font-4{
+	font-family: FONT-4;
+}
+.font-5{
+	font-family: FONT-5;
 }
 header{
 	border-bottom: 1px solid #eaeaea;
@@ -78,6 +116,7 @@ a{
 	display: flex;
 }
 .header-bottom div.content div.row-1 div{
+	font-family:PT-SAN;
 	display: inline-block;
 	height: 50px;
 	line-height: 50px;
@@ -103,6 +142,11 @@ content div.mag div.content-left{
 	flex:2;
 	margin-right: 45px;
 	width: 60%;
+}
+content div.mag div.content-left div.top{
+	font-family: FONT-2;
+	font-size: 10px;
+	color: gray;	
 }
 .content-left .icons-share{
 	display: flex;
@@ -150,6 +194,10 @@ content div.mag div.content-left div.choose button{
 	background-color: white;
 	border:1px solid #eaeaea;
 	padding:3px 10px;	
+}
+content div.mag div.content-right span.font-2{
+	font-size: 10px;
+	color: gray;
 }
 content div.mag div.content-right div.col-1{
 	margin: 15px 0 15px 0;
@@ -490,6 +538,7 @@ footer .footer-center .right div div{
 	margin: 0 10px 0 0;
 }
 footer .footer-bottom{
+	font-size: 10px;
 	height: 30px;
 	background-color: #0d0d0d;
 }

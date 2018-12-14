@@ -503,6 +503,7 @@ footer .footer-bottom div.left{
 	flex: 7;
 }
 footer .footer-bottom div.right{
+	text-align: right;
 	flex: 3;
 }
 footer .footer-bottom div.right span{

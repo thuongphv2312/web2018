@@ -368,7 +368,7 @@ content div.mag div.content-right{
 .text{
 	font-size: 10px;
 	line-height: 30px;
-	width: 50%;
+	width: 38%;
 	background-color: black;
 }
 .text a{
@@ -500,7 +500,7 @@ footer .footer-bottom div.mag div{
 	line-height: 30px;
 }
 footer .footer-bottom div.left{
-	flex: 10;
+	flex: 7;
 }
 footer .footer-bottom div.right{
 	flex: 3;

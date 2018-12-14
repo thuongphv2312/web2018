@@ -1,0 +1,531 @@
+body{
+	margin:0 auto;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+header{
+	border-bottom: 1px solid #eaeaea;
+	box-shadow:5px 3px 5px #eaeaea;
+}
+.image-icons{
+	width: 100%;
+	height: 100%;
+}
+.header-top{
+	height: 28px;
+	background-color: #222222;
+}
+ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+li{
+	margin:0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.mag{
+	width: 70%;
+	margin:0 auto;
+}
+.content{
+	width: 70%;
+	margin:0 auto;
+}
+.header-top div.content{
+	height: 28px;
+}
+.header-top div ul li{
+	display: inline;
+	color: white;
+	margin-right: 30px;
+	line-height: 28px;
+}
+.header-top div ul.left{
+	float: left;
+}
+.header-top div ul.right{
+	float: right;
+}
+.header-top div ul.right li{
+	margin-right: 20px;
+}
+.header-center div.content{
+	display: flex;
+	margin-top:30px; 
+}
+.col-1{
+	display: flex;
+	margin: 0 10px 10px 0;
+}
+.header-center div.content div.row-1{
+	padding:0 45px;
+}
+.header-center div.content div.row-2{
+	background-color: #4b7fb0;
+	flex: 3;
+}
+.mar-btm span{
+	margin-bottom: 4px;
+	display: block;
+}
+.header-bottom div.content{
+	display: flex;
+}
+.header-bottom div.content div.row-1 div{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 10px;
+	border-bottom: 2px solid white;
+}
+.header-bottom div.content div.row-1 div:hover{
+	border-bottom: 2px solid #4db2ec;
+}
+.header-bottom div.content div.row-2 a{
+	line-height: 50px;
+	float: right;
+}
+.header-bottom div.content div.row-2{
+	flex: 1;
+	text-align: right;
+    line-height: 50px;
+}
+content div.mag{
+	display: flex;
+}
+content div.mag div.content-left{
+	flex:2;
+	margin-right: 45px;
+	width: 60%;
+}
+.content-left .icons-share{
+	display: flex;
+}
+.content-left .icons-share button{
+	border:none;
+}
+.content-left .icons-share img{
+	margin: -2px 5px;
+}
+.bt-1{
+	width: 170px;
+	height: 40px;
+	margin:0 5px 20px;
+}
+.bt-11{
+	background-color: #516eab;
+}
+.bt-12{
+	background-color: #29c5f6;
+}
+.bt-2{
+	width: 40px;
+	height: 40px;
+	margin:0 5px 20px;
+}
+.bt-21{
+	background-color: #e14e42;
+}
+.bt-22{
+	background-color: #c21103;
+}
+content div.mag div.content-left div.select span{
+	height: 20px;
+	width: 45px;
+	background-color: #4db2ec;
+}
+div.choose{
+	margin-bottom: 30px;
+}
+content div.mag div.content-left div.choose div{
+	margin-bottom: 3px;
+}
+content div.mag div.content-left div.choose button{
+	background-color: white;
+	border:1px solid #eaeaea;
+	padding:3px 10px;	
+}
+content div.mag div.content-right div.col-1{
+	margin: 15px 0 15px 0;
+}
+#tag-1{
+	background-color: black;
+	color: white;
+}
+div.link-share{
+	height: 40px;
+	border:1px solid #eaeaea ;
+	padding:10px 0;
+}
+div.link-share h4{
+	line-height: 30px;
+	display: inline-block;
+	margin:0 10px 0 14px;
+}
+div.link-share button{
+	line-height: 40px;
+	border:1px solid #eaeaea;
+}
+div.link-share .bt-3{
+	width: 100px;
+	height: 40px;
+	margin: 0 1px;
+}
+div.link-share .bt-4{
+	width: 40px;
+	height: 40px;
+	margin:0 1px;
+}
+div.link-share .bt-3 i{
+	color: white;
+	margin-right: 10px;
+}
+.icons-mag{
+	margin-left: 10px;
+}
+.pad{
+	display: inline-block;
+}
+div.link-share .bt-3 img{
+	margin-right: 10px;
+}
+.news{
+	display: flex;
+	margin: 50px 0;
+}
+.news div{
+	flex: 1;
+}
+.people{
+	display: flex;
+	height: 155px;
+	border: 1px solid #eaeaea;
+	padding:20px;
+	margin-bottom: 50px;
+}
+.people .icon{
+	margin:20px 0;
+}
+.people .icon img{
+	margin-right: 10px;
+}
+.people h4{
+	margin: 0;
+}
+.image-people{
+	margin-right: 20px;
+	height: 120px;
+	width: 155px;
+	background-color: #4b7fb0;
+}
+.list-news-1{
+	display: flex;
+	flex-direction: column;
+}
+.list-news-1 .col-title{
+	display: flex;
+	height: 30px;
+}
+.list-news-1 .col-title div{
+	line-height: 30px;
+}
+.col-title .title-1{
+	flex: 1;
+	text-align: center;
+	color: white;
+	background-color: #2b2b2b;
+}
+.list-news-1 .col-title .title-2{
+	padding-left: 10px;
+	flex: 3;
+	border-bottom: 2px solid #2b2b2b;
+}
+.list-news-1 .news-paper{
+	margin:30px 0;
+	display: flex;
+}
+.news-papers{
+	margin-right:20px;
+	flex:1;
+}
+#news-right{
+	margin-right: 0;
+}
+.list-news-1 .news-paper .image-peo{
+	height: 145px;
+	background-color: #4b7fb0;
+}
+.next button{
+	border: 1px solid #eaeaea;
+	background-color: white;
+}
+.list-news-2{
+	margin:50px 0;
+}
+.list-news-2 h4{
+	margin: 0;
+}
+.list-news-2 .col-title {
+	border-bottom: 2px solid #2b2b2b;
+}
+.list-news-2 .col-title .title-1{
+	text-align: center;
+	color: white;
+	background-color: #2b2b2b;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+}
+.list-news-2 .Status{
+	margin:20px 0;
+}
+.list-news-2 .Status .Status-1{
+	display: flex;
+}
+.infor{
+	margin-left: 20px;
+}
+.avatar{
+	width: 50px;
+	height: 50px;
+	background-color: #4b7fb0;
+}
+.Status span{
+	display: block;
+	margin:10px 0;
+}
+.status-center{
+	margin-left: 50px;
+}
+.bder{
+	padding: 10px 0;
+	border-bottom:1px dashed #f1f1f1;
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+}
+.contact input{
+	padding-left: 10px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.contact textarea{
+	padding: 10px 0 0 10px;
+	height: 150px;
+	margin-bottom: 20px;
+}
+#subm{
+	width: 150px;
+	background-color: #1a1a1a;
+	color: white;
+	border:none;
+}
+content div.mag{
+	margin-top: 30px;
+}
+content div.mag div.content-left div.img{
+	height: 455px;
+	background-color: #4b7fb0;
+}
+content div.mag div.content-left div.paragrap{
+	margin: 50px;
+}
+content div.mag div.content-left div.top span{
+	margin-right: 10px;
+}
+content div.mag div.content-left div.top{
+	margin-bottom: 10px;
+}
+content div.mag div.content-right{
+	flex: 1;
+	margin-top:50px;
+}
+#beauty{
+	background-color: #2b2b2b;
+}
+.select span{
+	display: inline;
+	padding:2px 5px;
+	color: white;
+}
+.connect-social{
+	color: white;
+}
+.title{
+	border-bottom: 4px solid black;
+	margin-bottom: 25px;
+}
+.title .social{
+	margin-bottom:0;
+}
+.text{
+	font-size: 10px;
+	line-height: 30px;
+	width: 50%;
+	background-color: black;
+}
+.text a{
+	color: white;
+	margin-left:15px;
+}
+.connect-social button{
+	width: 100%;
+}
+.connect-social button.social{
+	margin-bottom: 10px;
+	height: 30px;
+	color: white;
+}
+.twitter{
+
+	background-color: #29c5f6;
+}
+.facebook{
+	background-color: #516eab;
+}
+.subcribe{
+	background-color: #e14e42;
+}
+.social{
+	border:none;
+}
+.social span{
+	display: inline-block;
+	padding-left: 5px;
+	border-left: 1px solid white;
+}
+.social div{
+	float: left;
+}
+.social .right{
+	float: right;
+}
+.social img{
+	margin-right: 5px;
+}
+.img-header{
+	margin-bottom: 25px;
+}
+.icon-fb{
+	margin-bottom: 10px;
+}
+footer{
+	color: white;
+	background-color: #1a1a1a;
+	padding:45px 0 0;
+}
+.with{
+	flex:1;
+}
+footer .footer-top{
+	display: flex;
+}
+footer .footer-top h4{
+	margin-top: 0;
+}
+footer .footer-top .row-3{
+	flex: 1;
+}
+footer .footer-top .row-3 div{
+	display: flex;
+}
+footer .footer-top .row-3 div ul{
+	flex: 1;
+}
+footer .footer-top .row-3 div ul li{
+	margin-bottom: 4px;
+}
+footer .footer-top .row-3 div ul.number li{
+	text-align: center;
+}
+footer .footer-top .row-3 p{
+	margin: 0;
+}
+.linee{
+	height: 20px;
+	border-bottom: 1px solid #2d2d2d;
+	width: 50%;
+	margin:10px auto;
+}
+footer .footer-center{
+	display: flex;
+}
+footer .footer-center .center{
+	padding: 0 20px;
+}
+footer .footer-center .left {
+	padding: 0 20px;
+	flex:1;
+}
+footer .footer-center .left img{
+	margin: 64px 0;
+}
+footer .footer-center .center{
+	flex:2;
+}
+footer .footer-center .right{
+	padding:0 20px;
+	display: flex;
+	flex-direction: column;
+	flex:2;
+}
+footer .footer-center .right img{
+	margin: 10px auto;
+}
+footer .footer-center .right div{
+	display: flex;
+}
+footer .footer-center .right div div{
+	width: 40px;
+	height: 40px;
+	border:1px solid #2d2d2d;
+	background-color: #242424;
+	margin: 0 10px 0 0;
+}
+footer .footer-bottom{
+	height: 30px;
+	background-color: #0d0d0d;
+}
+footer .footer-bottom>div{
+	display: flex;
+}
+footer .footer-bottom div.mag div{
+	line-height: 30px;
+}
+footer .footer-bottom div.left{
+	flex: 10;
+}
+footer .footer-bottom div.right{
+	flex: 3;
+}
+footer .footer-bottom div.right span{
+	margin-right: 10px;
+}
+div.col-1{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+div.col-1 div.left{
+	flex: 1;
+	background-color: #4b7fb0;
+	margin-right: 10px;
+}
+div.col-1 div.right{
+	flex:3;
+}
+div.row-4{
+	padding-top: 40px;
+	float: right;
+}
+hr{
+	color: #2d2d2d;
+	width: 900px;
+}

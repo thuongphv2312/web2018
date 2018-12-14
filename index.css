@@ -141,7 +141,6 @@ content div.mag{
 content div.mag div.content-left{
 	flex:2;
 	margin-right: 45px;
-	width: 60%;
 }
 content div.mag div.content-left div.top{
 	font-family: FONT-2;
@@ -578,4 +577,88 @@ div.row-4{
 hr{
 	color: #2d2d2d;
 	width: 900px;
+}
+@media screen and (max-width: 1180px){
+	content div.mag{
+		display: block;
+	}
+	
+	div.list-news-1{
+		display: block;
+	}
+	div.list-news-1 div.news-paper div.news-papers{
+		margin-right: 0;
+	}
+	div.list-news-1 div.news-paper{
+		width: 100%;
+		display: block;
+	}
+	header div.header-top ul.left{
+		text-align: center;
+		width: 100%;
+	}
+	header div.header-top ul.right{
+		display: none;
+	}
+	header div.header-top{
+		font-size: 10px;
+	}
+	div.content-left{
+		display: block;
+		width: 100%;
+	}
+	div.content-right{
+		display: block;
+	}
+	div.header-center .row-1{
+		width: 100%;
+		text-align: center;
+	}
+	div.header-center .row-2{
+		display: none;
+	}
+	div.header-bottom{
+		display: none;
+	}
+	footer{
+		display: block;
+	}
+	footer div.mag{
+		display: block;
+	}
+	footer div.footer-bottom{
+		height: 60px;
+	}
+	footer div.footer-bottom div.mag{
+		display: block;
+	}
+	footer div.footer-bottom div.mag .left{
+		width: 100%;
+		text-align: center;
+	}
+	footer div.footer-bottom div.mag .right{
+		width: 100%;
+		text-align: center;
+	}
+	footer div.footer-center div{
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	footer div.footer-center div.left img{
+		margin:30px 0 0 0;
+	}
+	footer div.footer-center div.right{
+		display: none;
+	}
+	footer div.footer-center div.left{
+		padding:0;
+	}
+	footer div.footer-center div.center{
+		padding:0;
+	}
+	footer div.footer-center div.right div{
+		margin: 0 auto;
+	}
+
 }

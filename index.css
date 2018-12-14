@@ -100,7 +100,7 @@ content div.mag{
 	display: flex;
 }
 content div.mag div.content-left{
-	flex:3;
+	flex:2;
 	margin-right: 45px;
 	width: 60%;
 }
@@ -368,7 +368,7 @@ content div.mag div.content-right{
 .text{
 	font-size: 10px;
 	line-height: 30px;
-	width: 50%;
+	width: 40%;
 	background-color: black;
 }
 .text a{
@@ -465,7 +465,7 @@ footer .footer-center .left {
 	flex:1;
 }
 footer .footer-center .left img{
-	margin: 64px 0;
+	margin: 81px 0;
 }
 footer .footer-center .center{
 	flex:1;

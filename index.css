@@ -157,9 +157,11 @@ content div.mag div.content-left div.top{
 }
 .content-left .icons-share button{
 	border:none;
+	color: white;
 }
 button:hover{
 	 cursor: pointer;
+	 background-color: #222;
 }
 .content-left .icons-share img{
 	margin: -2px 5px;

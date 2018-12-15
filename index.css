@@ -50,6 +50,11 @@ header{
 .image-icons{
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
+    object-position: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .header-top{
 	height: 28px;
@@ -152,6 +157,9 @@ content div.mag div.content-left div.top{
 }
 .content-left .icons-share button{
 	border:none;
+}
+button:hover{
+	 cursor: pointer;
 }
 .content-left .icons-share img{
 	margin: -2px 5px;
